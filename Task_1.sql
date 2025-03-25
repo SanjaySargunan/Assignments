@@ -50,16 +50,16 @@ CREATE TABLE Inventory (
 -- Customers Table
 INSERT INTO Customers (CustomerID, FirstName, LastName, Email, Phone, Address)
 VALUES
-(1, 'Arun', 'Kumar', 'arun.kumar@example.com', '9876543210', '123 Main Street'),
-(2, 'Lakshmi', 'S', 'lakshmi.s@example.com', '9443311223', '456 Oak Avenue'),
-(3, 'Ravi', 'Prakash', 'ravi.prakash@example.com', '9787654321', '789 Pine Road'),
-(4, 'Meena', 'Reddy', 'meena.reddy@example.com', '9845612300', '101 Maple Lane'),
-(5, 'Ramesh', 'Babu', 'ramesh.babu@example.com', '9367452189', '55 Elm Street'),
-(6, 'Revathi', 'Mohan', 'revathi.mohan@example.com', '8123456789', '202 Cedar Lane'),
-(7, 'Anand', 'Sharma', 'anand.sharma@example.com', '9101234567', '303 Birch Boulevard'),
-(8, 'Deepa', 'Nair', 'deepa.nair@example.com', '9976543120', '404 Cherry Street'),
-(9, 'Prakash', 'Raj', 'prakash.raj@example.com', '9012345678', '505 Spruce Way'),
-(10, 'Harini', 'S', 'harini.s@example.com', '9870123456', '606 Fir Avenue');
+(1, 'Arun', 'Kumar', 'arun.kumar@gmail.com', '9876543210', '123 Main Street'),
+(2, 'Lakshmi', 'S', 'lakshmi.s@gmail.com', '9443311223', '456 Oak Avenue'),
+(3, 'Ravi', 'Prakash', 'ravi.prakash@gmail.com', '9787654321', '789 Pine Road'),
+(4, 'Meena', 'Reddy', 'meena.reddy@gmail.com', '9845612300', '101 Maple Lane'),
+(5, 'Ramesh', 'Babu', 'ramesh.babu@gmail.com', '9367452189', '55 Elm Street'),
+(6, 'Revathi', 'Mohan', 'revathi.mohan@gmail.com', '8123456789', '202 Cedar Lane'),
+(7, 'Anand', 'Sharma', 'anand.sharma@gmail.com', '9101234567', '303 Birch Boulevard'),
+(8, 'Deepa', 'Nair', 'deepa.nair@gmail.com', '9976543120', '404 Cherry Street'),
+(9, 'Prakash', 'Raj', 'prakash.raj@gmail.com', '9012345678', '505 Spruce Way'),
+(10, 'Harini', 'S', 'harini.s@gmail.com', '9870123456', '606 Fir Avenue');
 
 -- Products Table
 INSERT INTO Products (ProductID, ProductName, Description, Price)
